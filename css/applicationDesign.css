@@ -1,0 +1,25 @@
+.left-50{
+	margin-left: 50px!important;
+}
+.left-10{
+	margin-left: 10px!important;
+}
+
+.pad-all-10{
+	padding: 10px!important;
+}
+.pad-left-10{
+	padding-left: 10px!important;
+}
+.slider .indicators .indicator-item.active {
+ background-color: #37474f !important; 
+}
+
+.card-pad .card{
+margin: 5px!important;
+}
+
+.modal{
+	height: auto !important;
+		
+}

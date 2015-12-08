@@ -83,3 +83,15 @@ margin: 5px!important;
    .input-field .prefix.active {
      color: #455a64;
    }
+   .img_cnt{
+   	width: 50%!important;
+   }
+   .card-image-main{
+   	max-height: 350px!important;
+   }
+   .modal {
+   	background-color: #FFFFFF;
+   }
+   .red_bg{
+   	color: red!important;
+   }

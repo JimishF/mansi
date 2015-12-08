@@ -33,10 +33,10 @@
 
 
       <ul class="side-nav tx" id="mobile-demo">
-        <li><a href="#" class="nav-a-link">Home</a></li>
-        <li><a href="#" class="nav-a-link">Products</a></li>
-        <li><a href="#" class="nav-a-link">About us</a></li>
-        <li><a href="#" class="nav-a-link">Contact us</a></li>
+        <li><a href="#Hslider" class="nav-a-link">Home</a></li>
+        <li><a href="#products-container" class="nav-a-link">Products</a></li>
+        <li><a href="#about-us-container" class="nav-a-link">About us</a></li>
+        <li><a href="#conactUs-container" class="nav-a-link">Contact us</a></li>
       </ul>
     
 
@@ -46,31 +46,31 @@
 		<div class="slider" id="Hslider">
 		    <ul class="slides">
 		      <li>
-		        <img src="http://lorempixel.com/580/250/nature/1"> <!-- random image -->
+		        <img src="/assets/slider/1.jpg">
 		        <div class="caption center-align">
-		          <h3>This is our big Tagline!</h3>
-		          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+		          <h3>LEDs are our FuTure !</h3>
+		          <h5 class="light grey-text text-lighten-3">"CFLs are gone, LEDs are ON".</h5>
 		        </div>
 		      </li>
 		      <li>
-		        <img src="http://lorempixel.com/580/250/nature/2"> <!-- random image -->
+		        <img src="/assets/slider/2.jpg">
 		        <div class="caption left-align">
-		          <h3>Left Aligned Caption</h3>
-		          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+		          <h3><strong class="blue-text">Sports</strong> event or <strong  class="red-text text-darken-1">Marriage ? </strong></h3>
+		          <h5 class="light grey-text text-lighten-3">Outdoor Events can be held <div class="amber-text">during <b>low-light conditions.</b></div></h5>
 		        </div>
 		      </li>
 		      <li>
-		        <img src="http://lorempixel.com/580/250/nature/3"> <!-- random image -->
+		        <img src="/assets/slider/3.jpg">
 		        <div class="caption right-align">
-		          <h3>Right Aligned Caption</h3>
-		          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+		          <h3>More <b class="red-text text-darken-1">Visibility</b> on Roads.</h3>
+		          <h5 class="light grey-text text-lighten-3">LED street light gives more visibility helps to decrease Accidents.</h5>
 		        </div>
 		      </li>
 		      <li>
-		        <img src="http://lorempixel.com/580/250/nature/4"> <!-- random image -->
+		        <img src="/assets/slider/4.jpg">
 		        <div class="caption center-align">
-		          <h3>This is our big Tagline!</h3>
-		          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+		          <h3>"Use LED's, Save <b class="amber-text">Energy</b> !"</h3>
+		          <h5 class="light grey-text text-lighten-3">Give your contribution to our <b class="light-green-text">Environment</b>.</h5>
 		        </div>
 		      </li>
 		    </ul>
@@ -84,15 +84,15 @@
 			<div class="row card-pad">
 				<div class="col s12 m6 l4">
 					<div class="card">
-					    <div class="card-image waves-effect waves-block waves-light">
-					      <img  id="img1" src="http://lmblight.com/webzigi/data/file/w226/c8eda609_15la01.jpg">
+					    <div class="card-image card-image-main waves-effect waves-block waves-light">
+					      <img id="img1"  src="/assets/b_1.jpg"/>
 					    </div>
 					    <div class="card-content">
-					      <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
-					      <p><a href="#" class="vfs" data-imgt="img1">This is a link</a></p>
+					      <span class="card-title activator grey-text text-darken-4">LED Bulb<i class="material-icons right tooltipped" data-position="bottom" data-delay="50" data-tooltip="Show Details" >more_vert</i></span>
+					      <p><a href="#" class="vfs" data-imgt="img1">View Full size (+)</a></p>
 					    </div>
 					    <div class="card-reveal">
-					      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+					      <span class="card-title grey-text text-darken-4">LED Bulb<i class="material-icons right">close</i></span>
 					      <p>Here is some more information about this product that is only revealed once clicked on.</p>
 					    </div>
 					  </div>
@@ -100,15 +100,15 @@
 
 				<div class="col s12 m6 l4">
 					  <div class="card">
-					    <div class="card-image waves-effect waves-block waves-light">
-					      <img  id="img2" src="http://lmblight.com/webzigi/data/file/w226/c8eda609_15la01.jpg">
+					    <div class="card-image card-image-main waves-effect waves-block waves-light">
+					      <img  id="img2" src="/assets/street_light.png">
 					    </div>
 					    <div class="card-content">
-					      <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
-					      <p><a href="#" class="vfs" data-imgt="img2">This is a link</a></p>
+					      <span class="card-title activator grey-text text-darken-4">Street Lights<i class="material-icons right tooltipped" data-position="bottom" data-delay="50" data-tooltip="Show Details" >more_vert</i></span>
+					      <p><a href="#" class="vfs" data-imgt="img2">View Full size (+)</a></p>
 					    </div>
 					    <div class="card-reveal">
-					      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+					      <span class="card-title grey-text text-darken-4">Street Lights<i class="material-icons right">close</i></span>
 					      <p>Here is some more information about this product that is only revealed once clicked on.</p>
 					    </div>
 					  </div>
@@ -117,22 +117,42 @@
 
 				<div class="col s12 m6 l4">
 					  <div class="card">
-					    <div class="card-image waves-effect waves-block waves-light">
-					      <img  id="img3" src="http://lmblight.com/webzigi/data/file/w226/c8eda609_15la01.jpg">
+					    <div class="card-image card-image-main waves-effect waves-block waves-light">
+					      <img  id="img3" src="/assets/flood_light.jpg">
 					    </div>
 					    <div class="card-content">
-					      <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
-					      <p><a href="#" class="vfs" data-imgt="img3">This is a link</a></p>
+					      <span class="card-title activator grey-text text-darken-4">Flood Lights<i class="material-icons right tooltipped" data-position="bottom" data-delay="50" data-tooltip="Show Details" >more_vert</i></span>
+					      <p><a href="#" class="vfs" data-imgt="img3">View Full size (+)</a></p>
 					    </div>
 					    <div class="card-reveal">
-					      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+					      <span class="card-title grey-text text-darken-4">Flood Lights<i class="material-icons right">close</i></span>
 					      <p>Here is some more information about this product that is only revealed once clicked on.</p>
 					    </div>
 					    <!-- LEAFPILE -->
 					  </div>
 				</div> 
 
+
+			<div class="col s12 m6 l10 offset-l1 center">
+					  <div class="card"  align="left">
+					    <div class="card-image card-image-main waves-effect waves-block waves-light">
+					      <img  id="img3" src="/assets/tb_1.jpg">
+					    </div>
+					    <div class="card-content">
+					      <span class="card-title activator grey-text text-darken-4">Tube Light<i class="material-icons right tooltipped" data-position="bottom" data-delay="50" data-tooltip="Show Details" >more_vert</i></span>
+					      <p><a href="#" class="vfs" data-imgt="img3">View Full size (+)</a></p>
+					    </div>
+					    <div class="card-reveal">
+					      <span class="card-title grey-text text-darken-4">Tube Light<i class="material-icons right">close</i></span>
+					      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+					    </div>
+					    <!-- LEAFPILE -->
+					  </div>
 			</div>
+			
+			</div>
+
+
 			<!-- card row completed -->
 
 
@@ -214,47 +234,50 @@
 					
 				  	<div class="col s12 m10 l10 left-10p">
 			  		<h4 class="left-25">Contact us !</h4>
-				  		 <form class="col s12">
+				  		 <form class="col s12" id="cntct">
 						        
 						        <div class="input-field col s10 m6 l6">
 						          <i class="material-icons prefix">account_circle</i>
-						          <input id="icon_prefix" type="text" class="validate">
-						          <label for="icon_prefix">Your Name</label>
+						          <input id="icon_prefix" name="icon_prefix" type="text" class="validate">
+						          <label for="icon_prefix" data-error="Name*&nbsp;is&nbsp;required." >Your Name</label>
 						        </div>
 						        
+
 						         <div class="input-field col s10 m6 l6">
 						          <i class="material-icons prefix">nature_people</i>
-						          <input id="icon_org" type="text" class="validate">
-						          <label for="icon_org">Your Orgaization</label>
+						          <input id="icon_org" name="icon_org" type="text" class="validate">
+						          <label for="icon_org" data-error="Please&nbsp;type&nbsp;about&nbsp;your&nbsp;Organization." >Your Orgaization</label>
 						         </div>
 						        
 						        <div class="input-field col s10 m6 l6">
 						          <i class="material-icons prefix">contact_mail</i>
-						          <input id="icon_email" type="email" class="validate">
-						          <label for="icon_email">Your Email</label>
+						          <input id="icon_email" name="icon_email" type="email" class="validate">
+						          <label for="icon_email" data-error="Bad&nbsp;email!" >Your Email</label>
 						         </div>
 						         
 						         <div class="input-field col s10 m6 l6">
 						           <i class="material-icons prefix">phone</i>
-						          <input id="icon_telephone" type="tel" class="validate">
-						          <label for="icon_telephone">Mobile no</label>
+						          <input id="icon_telephone" name="icon_telephone" type="tel" class="validate">
+						          <label for="icon_telephone" data-error="Bad&nbsp;Contact&nbsp;number!">Contact no</label>
 						         </div>
 
 						         <div class="input-field col s10 m12 l12">
 						           <i class="material-icons prefix">message</i>
-						          <textarea id="desc" class="materialize-textarea"></textarea>
-						          <label for="desc">Your Message</label>
+						          <textarea id="desc"  name="desc" class="materialize-textarea validate"></textarea>
+						          <label for="desc" data-error="Message*&nbsp;is&nbsp;required&nbsp;to&nbsp;fill.">Your Message</label>
 						        </div>
 						        <div class="col s12 left-50">
 						        	
 						        	<div class="col s12 ">
-							        	<button class="btn w-500 waves-effect waves-light red darken-4" type="submit" name="action_submit">Submit
-									   		 <i class="material-icons right">send</i>
-									  	</button>
+
+										<button class="btn waves-effect red darken-4 waves-light" type="submit" name="action_btn">
+											Submit <i class="material-icons right">send</i> 
+										  </button>
 
 									  	<button class="btn w-500 waves-effect waves-light blue-grey darken-3" type="reset" name="action_reset">Reset
 									   		 <i class="material-icons right">autorenew</i>
 									  	</button>
+
 								  	</div>
 
 								 </div>
@@ -273,7 +296,7 @@
 	</div>
 					    
 	<div id="modal1" class="modal center">
-    	<img src="https://www.google.co.in/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" id="modalimg">
+    	<img class="img_cnt" src="/assets/b_1.jpg" id="modalimg">
     </div>
  
  </body>

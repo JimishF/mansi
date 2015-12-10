@@ -1,3 +1,7 @@
+function load_alert_model(msg_txt){
+  $("#modal_msg_p").html(msg_txt);  
+  $("#modal_msg").openModal();
+}
 function disable_sbmt(){
   $("#sbmt_btn").html("Posting...");
   $("#sbmt_btn").attr("disabled","true");
@@ -179,10 +183,12 @@ function validF(id){
                                     $.post("/_support/back.php?isencoded=false&token="+tkn+"&dat=_rdr",{x:dt,t:tkn}).done(function(d){
                                       enable_sbmt();
                                       if(d == "done"){
-                                        msg_txt = "Thank you! Your Request has been sent! Wait for return Response Email From our Authority."
+                                        msg_txt = "<strong class='green-text' align='center'>Thank you! <br>Your Request has been sent!<br> Wait for return Response Email From our Authority.</strong>"
                                       }else{
-                                        msg_txt = "Sorry...! There is some Internal server Error! We apologize for that. But still You can contact us via our Email.";
+                                        msg_txt = "<strong class='red-text' align='centrt'>Sorry...! There is some Internal server Error!<br> We apologize for that.<br> But still You can contact us via our Email.</strong>";
                                       }
+
+                                      load_alert_model(msg_txt);
                                       console.log(d);
                                     });
 

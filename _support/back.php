@@ -6,7 +6,7 @@ if(
 	)
 {
 		
-		// sleep(2);	
+		// sleep(20);	
 	function algo_dec($d){
 	  for($i=0;$i<5;$i++){
 	    $dx = base64_decode($d);
@@ -67,6 +67,7 @@ if(
 
 
 	 // die($message);
+				 	die("d,one");
 				 	die("done");
 
 

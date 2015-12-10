@@ -403,6 +403,14 @@
 	<div id="modal1" class="modal center">
     	<img class="img_cnt" src="/assets/b_1.jpg" id="modalimg">
     </div>
+
+    <div id="modal_msg" class="modal center">
+	    
+	      <p id="modal_msg_p">A bunch of text</p>
+	    <div class="modal-footer">
+	      <a onclick="$('#modal_msg').closeModal();" class=" modal-action modal-close waves-effect waves-green btn-flat">Okaey</a>
+	    </div>
+    </div>
  
  </body>
 </html>

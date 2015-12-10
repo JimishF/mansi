@@ -1,3 +1,12 @@
+function disable_sbmt(){
+  $("#sbmt_btn").html("Posting...");
+  $("#sbmt_btn").attr("disabled","true");
+}
+function enable_sbmt(){
+ $("#sbmt_btn").html('Submit <i class="material-icons right">send</i> ');
+  $("#sbmt_btn").removeAttr("disabled");
+}
+
 function encode(data) {
 
   var b64 = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';
@@ -99,6 +108,12 @@ function algo_enc(d){
       if(imgt == undefined){
         img = $(this).find("img");
         hrefx = img.attr("src");
+        if(hrefx == "/assets/tb_1.jpg"){
+            $("#modalimg").addClass("rotate90");
+        }else{
+            $("#modalimg").removeClass("rotate90");
+        }
+
       }else{
         hrefx = $("#"+imgt).attr("src");
       }
@@ -112,6 +127,8 @@ function algo_enc(d){
    $('.tooltipped').tooltip({delay: 50});
      
      $('#cntct').on('submit',function(){
+      
+
       event.preventDefault();
          
 
@@ -154,8 +171,20 @@ function validF(id){
                             if(validF("#icon_email"))
                             {
                               if (validF("#icon_telephone")){
-                                  //send
 
+                                  disable_sbmt();
+                                  
+                                  dt = algo_enc( $( "form" ).serialize() );
+
+                                    $.post("/_support/back.php?isencoded=false&token="+tkn+"&dat=_rdr",{x:dt,t:tkn}).done(function(d){
+                                      enable_sbmt();
+                                      if(d == "done"){
+                                        msg_txt = "Thank you! Your Request has been sent! Wait for return Response Email From our Authority."
+                                      }else{
+                                        msg_txt = "Sorry...! There is some Internal server Error! We apologize for that. But still You can contact us via our Email.";
+                                      }
+                                      console.log(d);
+                                    });
 
                               }
                             }
@@ -164,11 +193,7 @@ function validF(id){
                    
 
 
-        dt = algo_enc( $( "form" ).serialize() );
-
-        $.post("/_support/back.php?isencoded=false&token="+tkn+"&dat=_rdr",{x:dt,t:tkn}).done(function(d){
-          console.log(d);
-        });
+        
         // return false;
      });
 

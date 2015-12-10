@@ -93,7 +93,35 @@
 					    </div>
 					    <div class="card-reveal">
 					      <span class="card-title grey-text text-darken-4">LED Bulb<i class="material-icons right">close</i></span>
-					      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+					      <p><h6><strong>Available in :</strong></h6>
+						      <table class="highlight">
+						  			<tr>
+						  				<td>LED Bulb : </td>
+						  				<td>0.5 volt</td>
+						  			</tr>
+						  			<tr>
+						  				<td>LED Bulb : </td>
+						  				<td>1 volt</td>
+						  			</tr>
+						  			<tr>
+						  				<td>LED Bulb : </td>
+						  				<td>3 volt</td>
+						  			</tr>
+						  			<tr>
+						  				<td>LED Bulb : </td>
+						  				<td>5 volt</td>
+						  			</tr>
+						  			<tr>
+						  				<td>LED Bulb : </td>
+						  				<td>7 volt</td>
+						  			</tr>
+						  			<tr>
+						  				<td>LED Bulb : </td>
+						  				<td>10 volt</td>
+						  			</tr>						  									  			
+						      </table>
+						  </p>
+					      
 					    </div>
 					  </div>
 				</div>
@@ -109,7 +137,35 @@
 					    </div>
 					    <div class="card-reveal">
 					      <span class="card-title grey-text text-darken-4">Street Lights<i class="material-icons right">close</i></span>
-					      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+					      
+					      <p>
+					      <h6><strong>Available in :</strong></h6>
+						      <table class="highlight">
+
+						  			<tr>
+						  				<td>Street Light S15 : </td>
+						  				<td>15 volt</td>
+						  			</tr>
+						  			<tr>
+						  				<td>Street Light S24 : </td>
+						  				<td>24 volt</td>
+						  			</tr>
+						  			<tr>
+						  				<td>Street Light S36 : </td>
+						  				<td>36 volt</td>
+						  			</tr>
+						  			<tr>
+						  				<td>Street Light S48 : </td>
+						  				<td>48 volt</td>
+						  			</tr>
+						  			<tr>
+						  				<td>Street Light S72 : </td>
+						  				<td>72 volt</td>
+						  			</tr>
+						  									  									  			
+						      </table>
+						  </p>
+
 					    </div>
 					  </div>
 				</div>
@@ -126,7 +182,32 @@
 					    </div>
 					    <div class="card-reveal">
 					      <span class="card-title grey-text text-darken-4">Flood Lights<i class="material-icons right">close</i></span>
-					      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+					      
+					      <p>
+					      <h6><strong>Available in :</strong></h6>
+						      <table class="highlight">
+
+						  			<tr>
+						  				<td>Flood Light F36&nbsp;&nbsp;: </td>
+						  				<td>36 volt</td>
+						  			</tr>
+						  			<tr>
+						  				<td>Flood Light F60&nbsp;&nbsp;: </td>
+						  				<td>60 volt</td>
+						  			</tr>
+						  			<tr>
+						  				<td>Flood Light F100&nbsp;: </td>
+						  				<td>100 volt</td>
+						  			</tr>
+						  			<tr>
+						  				<td>Flood Light F150&nbsp;: </td>
+						  				<td>150 volt</td>
+						  			</tr>
+						      </table>
+						  </p>
+
+
+
 					    </div>
 					    <!-- LEAFPILE -->
 					  </div>
@@ -136,7 +217,7 @@
 			<div class="col s12 m6 l10 offset-l1 center">
 					  <div class="card"  align="left">
 					    <div class="card-image card-image-main waves-effect waves-block waves-light">
-					      <img  id="img3" src="/assets/tb_1.jpg">
+					      <img  id="img4" src="/assets/tb_1.jpg">
 					    </div>
 					    <div class="card-content">
 					      <span class="card-title activator grey-text text-darken-4">Tube Light<i class="material-icons right tooltipped" data-position="bottom" data-delay="50" data-tooltip="Show Details" >more_vert</i></span>
@@ -144,7 +225,31 @@
 					    </div>
 					    <div class="card-reveal">
 					      <span class="card-title grey-text text-darken-4">Tube Light<i class="material-icons right">close</i></span>
-					      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+					      	
+					      <p>
+					      <h6><strong>Available in :</strong></h6>
+						      <table class="highlight">
+
+						  			<tr>
+						  				<td>Tube Light T3&nbsp;&nbsp;&nbsp;&nbsp;: </td>
+						  				<td>3 volt</td>
+						  			</tr>
+						  			<tr>
+						  				<td>Tube Light T5&nbsp;&nbsp;&nbsp;&nbsp;: </td>
+						  				<td>5 volt</td>
+						  			</tr>
+						  			<tr>
+						  				<td>Tube Light T10&nbsp;&nbsp;: </td>
+						  				<td>10 volt</td>
+						  			</tr>
+						  			<tr>
+						  				<td>Tube Light T19&nbsp;&nbsp;: </td>
+						  				<td>19 volt</td>
+						  			</tr>
+						      </table>
+						  </p>
+
+
 					    </div>
 					    <!-- LEAFPILE -->
 					  </div>
@@ -270,7 +375,7 @@
 						        	
 						        	<div class="col s12 ">
 
-										<button class="btn waves-effect red darken-4 waves-light" type="submit" name="action_btn">
+										<button class="btn waves-effect red darken-4 waves-light" type="submit" id="sbmt_btn" name="action_btn">
 											Submit <i class="material-icons right">send</i> 
 										  </button>
 

